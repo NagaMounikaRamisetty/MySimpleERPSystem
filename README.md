@@ -1,9 +1,10 @@
 /*The goal of this project is to create a simplified interface for an ERP (Enterprise Resource Planning) system, designed to manage basic business operations efficiently. The system will consist of the following pages:
+
 Dashboard - Provides an overview of the system's features.
 Products Management - Allows for the management of product listings.
 Orders Management - Facilitates viewing and handling orders.
 
-Additionally, as an optional feature, you may implement:
+Additionally, as an optional feature, we implemented:
 Orders Calendar View - A calendar interface displaying orders based on their expected delivery dates.
 
 Objectives:
