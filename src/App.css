@@ -1,0 +1,47 @@
+/* App container */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #17567e;
+    color: rgb(33, 33, 33);
+    padding: 20px;
+    width: 125%;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  .nav {
+    background-color: #4b4747;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    display: inline;
+    margin-right: 65px;
+  }
+  
+  .nav-list li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-list li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding: 40px;
+  }

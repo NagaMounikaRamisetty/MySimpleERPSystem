@@ -1,0 +1,33 @@
+.dashboard {
+    padding: 100px;
+    border: 2.5px solid #0d0d0d;
+    border-radius: 10px;
+    background-color: #9f8899;
+  }
+  
+  .title {
+    color: #171717;
+  }
+  
+  .metricsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  
+  .metricItem {
+    flex: 1;
+    padding: 15px;
+    border: 2.5px solid #1b1b1b;
+    border-radius: 2.5px;
+    background-color: #9f8899;
+    box-shadow: 0 2px 4px rgba(39, 38, 38, 0.1);
+  }
+  
+  .metricName {
+    font-weight: bold;
+  }
+  
+  .metricValue {
+    margin-top: 5px;
+  }

@@ -1,0 +1,48 @@
+.calendar {
+    max-width : 750px;
+    margin : 2.5px;
+    padding: 20px;
+    border: 1px solid #292929;
+    border-radius: 10px;
+    background-color: #839f9d;
+  }
+  
+  .title {
+    color: #151515;
+  }
+  
+  .calendarGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    gap: 100px;
+    border-radius: 100px;
+    margin : 5px;
+    max-width: 1000px;
+    max-height: 500px;
+  }
+  
+  .calendarDay {
+    border: 1px solid #272626;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #9f9f9c;
+  }
+  
+  .date {
+    color : #090909;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .orderItem {
+    margin-bottom: 20px;
+  }
+  
+  .orderId {
+    color : #252424;
+  }
+  
+  .customerName {
+    color: #252424;
+  }

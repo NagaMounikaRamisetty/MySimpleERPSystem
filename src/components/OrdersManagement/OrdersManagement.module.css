@@ -1,0 +1,39 @@
+.ordersContainer {
+  max-width : 750px;
+  margin : 2.5px;
+  padding: 50px;
+  border: 2.5px solid #0d0d0d;
+  border-radius: 10px;
+  background-color: #a69889;
+}
+
+  
+  .ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ordersTable th,
+  .ordersTable td {
+    border: 1px solid #2b2929;
+    padding: 5px;
+  }
+  
+  .ordersTable th {
+    background-color: #6c6168;
+  }
+  
+  .statusButton,
+  .deleteButton {
+    background-color: #768ca4;
+    color: solid rgb(50, 49, 48);
+    border: 0.5px solid #2b2929;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .statusButton:hover,
+  .deleteButton:hover {
+    background-color: #91a9c2;
+  }

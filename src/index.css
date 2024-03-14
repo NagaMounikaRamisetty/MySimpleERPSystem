@@ -1,0 +1,17 @@
+body, html {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Apply some global styles */
+  body {
+    font-family: Verdana,serif;
+    background-color: #137593;
+  }
+  
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+  }
